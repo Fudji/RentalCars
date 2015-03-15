@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset=utf-8"utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content=""/>
+      <meta name="description" content="" />
+      <title>Welcome to DVBS</title>
+      <!-- Bootstrap -->
+      <link href="../../../assets/system_design/css/styles.css" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/css/styles.css" rel="stylesheet">
+            <link href="../../../assets/system_design/css/cab.css" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/css/cab.css" rel="stylesheet">
+            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="../../../../../../oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" tppabs="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="../../../../../../oss.maxcdn.com/respond/1.4.2/respond.min.js" tppabs="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <header class="bg">
+      <div class="container-fluid top-hedd">
+         <div class="container padding-p-0">
+            <div class="row">
+               <div class="col-md-12 padding-p-0">
+                  <div class="top-section">
+                     <div class="col-md-7">
+                        <div class="col-md-4 padding-p-r">
+                           <div class="tot-top">
+                              <div class="phone"> <i class="fa fa-phone"></i> </div>
+                              <aside>+040 - 00 333 000</aside>
+                           </div>
+                        </div>
+                                                <div class="col-md-4 padding-p-r">
+                           <div class="tot-top">
+                              <div class="phone"> <i class="fa fa-user"></i> </div>
+                              <aside class="col">  <a href="../../auth/create_user.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/auth/create_user" >Create account </a> </aside>
+                           </div>
+                        </div>
+                        <div class="col-md-4 padding-p-r">
+                           <div class="tot-top">
+                              <div class="phone"> <i class="fa fa-lock"></i> </div>
+                              <aside class="col"> <a href="../../auth/login.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/auth/login" >Login </a> </aside>
+                           </div>
+                        </div>
+                                             </div>
+                     <div class="col-md-5 padding-p-r">
+                        <div class="social-icons">
+                           <ul>
+                                                            <li> <a href="javascript:if(confirm('https://www.facebook.com/Digitalvidhya  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?'))window.location='https://www.facebook.com/Digitalvidhya'" tppabs="https://www.facebook.com/Digitalvidhya"   target="_blank">
+                                 <i class="fa fa-facebook"></i> </a> 
+                              </li>
+                                                            <li> <a href="javascript:if(confirm('https://twitter.com/Digitalvidhya  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?'))window.location='https://twitter.com/Digitalvidhya'" tppabs="https://twitter.com/Digitalvidhya"   target="_blank">
+                                 <i class="fa fa-twitter"></i> </a> 
+                              </li>
+                              							  
+							  								
+                           </ul>
+                        </div>
+                        <div class="selec" id="uli">
+                           <a href="#">Lang</a>
+                           <div id="ld">
+                              <ul>
+                                 <li> <a href="6.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/packages/booking/6">English</a> </li>
+                                 <li><a href="../../../fr/packages/booking/6.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/fr/packages/booking/6">French</a> </li>
+                                 <li><a href="../../../pt/packages/booking/6.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/pt/packages/booking/6">Português</a> </li>
+                                 <li><a href="../../../de/packages/booking/6.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/de/packages/booking/6">Deutsch</a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="../../../assets/system_design/scripts/jquery.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/jquery.min.js"></script>
+      <script src="../../../assets/system_design/form_validation/js/jquery.validate.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs//assets/system_design/form_validation/js/jquery.validate.min.js" type="text/javascript"></script>
+      <script src="../../../assets/system_design/form_validation/js/additional-methods.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs//assets/system_design/form_validation/js/additional-methods.min.js" type="text/javascript"></script><div class="container-fluid main-menu">
+   <div class="container padding-p-0">
+      <div class="row">
+         <div class="col-md-2 padding-p-l">
+            <a href="../../auth/index/home.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/auth/index/home">
+               <div id="logo"></div>
+            </a>
+         </div>
+         <div class="col-md-10 padding-p-r">
+            <nav role="navigation" class="navbar navbar-default menu-total">
+               <div class="navbar-header">
+                  <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed nav-bar-btn" type="button"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+               </div>
+               <div class="collapse navbar-collapse res-menu" id="navbar">
+                  <ul class="nav navbar-nav menu">
+                     <li  ><a href="../../auth/index/home.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/auth/index/home"> <i class="fa fa-home"></i> </a></li>
+                     <li  ><a href="../../welcome/onlineBooking.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/onlineBooking">Online Booking</a></li>
+                     <li class="active" ><a href="../../packages.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/packages">Packages</a></li>
+                    
+                                          <li class="drop-menu menu-drop">
+                        <a href="#" aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle">Features<span class="caret"></span> </a>
+                        <ul role="menu" class="dropdown-menu drop-menu">
+                                                      <li><a href="../../page/index/39/Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/39/Features">Admin Features</a></li>
+                                                      <li><a href="../../page/index/38/Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/38/Features">System Features</a></li>
+                                                      <li><a href="../../page/index/40/Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/40/Features">Executive Features</a></li>
+                                                      <li><a href="../../page/index/41/Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/41/Features">User Features</a></li>
+                                                   </ul>
+                     </li>
+                                          <!-- kalyan end -->
+                     <li  ><a href="../../welcome/faqs.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/faqs">FAQ's</a></li>
+                     <li  ><a href="../../welcome/contactUs.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/contactUs">Contact</a></li>
+                                       </ul>
+               </div>
+               <!--/.nav-collapse --> 
+            </nav>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="container padding-p-0 banner">
+   <div class="row">
+      <div class="col-md-8 padding-p-l">
+         <aside class="hedding"> Package Booking</aside>
+      </div>
+      <div class="col-md-4 padding-p-r">
+         <aside class="bradecom">
+            <ul>
+               <li> <a href="../../index.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/"> Home  </a> </li>
+               <li><a href="javascript:void(0)">>></a></li>
+               <li class="active"><a href="javascript:void(0)">&nbsp;Package Booking </a></li>
+            </ul>
+         </aside>
+      </div>
+   </div>
+</div>
+</header>
+<form action="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/passengerDetails" method="post" accept-charset="utf-8" name="online_package_booking_form" id="online_package_booking_form"><div style="display:none">
+<input type="hidden" name="csrf_test_name" value="90d7760edb6571724b95c13acb06af74" />
+</div><div class="container-fluid">
+   <div class="container padding-p-0">
+      <div class="row">
+         <div class="col-md-9">
+            <div class="left-side-cont">
+               <div class="col-md-12 padding-p-0">
+                  <div class="bcp">
+                     <div class="business-us">
+                        <div class="busi-cercle active"> 
+                        </div>
+                        <center> Journey Details</center>
+                     </div>
+                     <div class="business-us">
+                        <div class="busi-cercle"> 
+                        </div>
+                        <center> Passenger(s) Details </center>
+                     </div>
+                     <div class="business-us">
+                        <div class="busi-cercle"> 
+                        </div>
+                        <center>  Booking Confirmation</center>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <label> Pick-Up Location </label>
+                     <input type="text"  placeholder="19th Street, San Francisco, CA, United States" class="location" id="local_pick" name="pick_up">
+                  </div >
+                  <div class="online-cars" id="cars_data_list">
+                     <div class="online-cars" id="cars_data_list">
+                        <ul class="nav nav-tabs on-bo-he">
+                           <li>
+						   <a data-toggle='tab' role='tab' aria-controls='home' href='#home'>
+                              <div class="on-bo-heddings"><i class="fa fa-automobile"></i> </div>
+                              Car Selected							</a>							  
+                           </li>
+                        </ul>
+                        <div class="col-md-12">
+                        
+                         
+                                                            <div class="col-md-4">
+                                 <div class="car-sel-bx">
+                                    <h3>Hatchback</h3>
+                                    <ul class="peoples">
+                                       <li class="people-icon">(4)</li>
+                                       <li class="suitcase-icon">(1)</li>
+                                       <li class="bag-icon last">(2)</li>
+                                    </ul>
+                                    <input type="hidden" name="radiog_dark" value="35" id="cab_35"> 
+									<input type="hidden" name="check_cars" value="1" id="check_cars"  />									
+                                 </div>
+                              </div>
+                                                       
+                        </div>
+                     </div>
+                     <div class="date-time">
+                        <ul class="nav nav-tabs on-bo-he">
+                           <li>
+						   <a data-toggle='tab' role='tab' aria-controls='home' href='#home'>
+                              <div class="on-bo-heddings"><i class="fa fa-calendar"></i> </div>
+                              Date & Time							</a>
+                           </li>
+                           <small class="on-smhed"> (Click & Select the date and time you'd like to picked up  ) </small>
+                        </ul>
+                        <div class="online-con">
+                           <div class="col-md-6">
+                              <label> Select Date : * </label>
+                              <input data-beatpicker="true" class="dte" type="text" value="16-03-2015" name="moving_date" data-beatpicker-disable="{from:[2015,3,15],to:'<'}" data-beatpicker-format="['DD','MM','YYYY'],separator:'-'" />
+                           </div>
+                           <div class="col-md-6">
+                              <label>Select Time :* </label>
+                              <input type="text" id="timepicker1" name="pick_time" value="04 : 26 : PM" />
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden" value="150315042651" name="booking_ref" >
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden" value="250.00" name="total_cost" >
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden"  value="6" name="package_type" >
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden"  value="500" name="total_distance" >
+                           </div>
+                           <!--<div class="col-md-6">
+                              <input type="hidden" value="" name="pick_up" >
+                              </div> -->
+                           <div class="col-md-6">
+                              <input type="hidden"  value="-" name="drop_of" >
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden"  value="Hatchback" name="car_name" >
+                           </div>
+                           <div class="col-md-6">
+                              <input type="hidden"  value="50   Hours"  name="total_time" >
+                           </div>
+                        </div>
+                     </div>
+                     <div class="wait-time">
+                        <div class="online-con">
+                           <div class="col-md-6">
+                              <div class="total-journey"> <i class="fa fa-clock-o"></i> <br>
+                                 Type: &nbsp;<strong> platinum</strong>  <br/>Total Time(Hours): &nbsp;<strong>50</strong><br> &nbsp;&nbsp;
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="total-cost"><i class="fa fa-money"></i> Package Details<br/>
+                                 Package Cost: &nbsp;<strong>250.00</strong> <br />
+                                 Extra distance(per Km): &nbsp;<strong>30.00</strong> <br />
+                                 Extra time(In hour(s)): &nbsp;<strong>60.00</strong> <br />
+                              </div>
+                           </div>
+                           <button type="submit" class="naxt">Personal Details<i class="fa fa-arrow-circle-o-right"></i> </button> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3">
+                     </div>
+      </div>
+   </div>
+</div>
+</div>
+</form><script type="text/javascript"> 
+   (function($,W,D)
+   {
+      var JQUERY4U = {};
+   
+      JQUERY4U.UTIL =
+      {
+          setupFormValidation: function()
+          {
+              //Additional Methods			
+   
+   
+   
+   		
+   		//form validation rules
+              $("#online_package_booking_form").validate({
+                  rules: {
+   			pick_up: {
+   				required: true
+   			}
+                  },
+   			
+   			messages: {
+   		pick_up: {
+   				required: "pick up location required."
+   			}
+   			},
+                  
+                  submitHandler: function(form) {
+                      form.submit();
+                  }
+              });
+          }
+      }
+   
+      //when the dom has loaded setup form validation rules
+      $(D).ready(function($) {
+          JQUERY4U.UTIL.setupFormValidation();
+      });
+   
+   })(jQuery, window, document);
+   
+   
+</script> 
+<script src="../../../../../../maps.googleapis.com/maps/api/js-sensor=false&libraries=places" tppabs="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+<script src="../../../assets/system_design/scripts/jquery.geocomplete.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/jquery.geocomplete.js"></script>
+<script>
+   $(document).ready(function(){
+   	
+   	
+   	  $(".location").geocomplete({
+             country: 'us'
+           });
+   });
+</script><section class="footer">
+    <div class="container">
+      <div class="col-lg-12 col-md-12 col-sm-12 padding-lr">
+        <div class="row">
+		
+		          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="footer_div">
+              <div class="footer_heading">
+                <h5>Testimonials </h5>
+              </div>
+              <!--./footer_heading-->
+              
+              <div class="footer_social_links">
+                <div  id="testimonials-row">
+                  <div class="row">
+                    <div class="col-md-12 column">
+                      <div class="carousel slide" id="testimonials-rotate">
+                        <ol class="carousel-indicators">
+                          <li class="active" data-slide-to="0" data-target="#testimonials-rotate"> </li>
+                          <li data-slide-to="1" data-target="#testimonials-rotate"> </li>
+                          <li data-slide-to="2" data-target="#testimonials-rotate"> </li>
+                        </ol>
+                        <div class="carousel-inner">
+                          						  <div class="item  active">
+                            <div class="testimonials col-md-10 padding-p-0">
+                              <h3> Good application for my cabs business.<br>
+                                <small class="name"> John</small> </h3>
+                            </div>
+                            <div class="clearfix"></div>
+                          </div>
+                                                  </div>
+                      </div>
+                      <div class="pull-right"> <a class="left" href="#testimonials-rotate" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right" href="#testimonials-rotate" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end of container-->
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <!--./footer_div--> 
+          </div>
+		          <!--./col-lg-3-->
+          
+		  
+		  
+		  <div class="col-lg-2 col-md-2 col-sm-4">
+            <div class="footer_div">
+              <div class="footer_heading">
+                <h5>Our Company</h5>
+              </div>
+              <!--./footer_heading-->
+              <div class="recent_tweet">
+                <ul>
+                  <!-- <li> <a href="#">Our Fleet </a></li> -->
+                  <li> <a href="../../welcome/contactUs.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/contactUs">Contact Us</a></li>
+                  <li><a href="../../welcome/faqs.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/faqs">FAQ's</a></li>
+                 <li><a href="../../welcome/testimonials.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/welcome/testimonials"> Testimonials</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--./footer_div--> 
+          </div>
+		  
+		  
+          <!--./col-lg-3-->
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <div class="footer_div">
+			
+              <div class="footer_heading"> 
+			  <h5>Pages</h5>
+			  </div>
+              <!--./footer_heading-->
+              <div class="recent_tweet">
+                <ul>
+                
+                				  <li><a href="../../page/index/41/User Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/41/User Features">User Features</a></li>
+				  
+				  				  <li><a href="../../page/index/40/Executive Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/40/Executive Features">Executive Features</a></li>
+				  
+				  				  <li><a href="../../page/index/38/System Features.htm" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/en/page/index/38/System Features">System Features</a></li>
+				  
+				                 
+                </ul>
+              </div>
+            </div>
+            <!--./footer_div--> 
+          </div>
+          
+		  
+		  
+          <div class="col-md-2">
+		  
+            <p class="credit-cards"><label>Cards We Accept</label><img alt="Cards we accept" src="../../../assets/system_design/images/cards1.gif" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs//assets/system_design/images/cards1.gif"></p>
+          </div>
+		  
+		  
+        </div>
+      </div>
+    </div>
+    <!--./container--> 
+  </section>
+  <section class="bottom_footer">
+    <div class="container">
+      <div class="col-md-8 padding-lr">
+        <div class="copyright-left">
+                   <p>© Digi Advanced Cab Booking System 2015. All rights reserved.</p>
+                </div>
+      </div>
+      <div class="col-md-4 padding-lr">
+        <div class="copyright-left right-foo">
+         
+		            <p><a href="javascript:if(confirm('http://digitalvidhya.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://digitalvidhya.com/'" tppabs="http://digitalvidhya.com/" target="_blank"> Powered by  Digital Vidhya</a></p>
+                </div>
+      </div>
+    </div>
+  </section>    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+
+ <script src="../../../assets/system_design/scripts/chosen.jquery.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/chosen.jquery.min.js"></script>
+  
+         <script>
+$(function() {
+$(".chzn-select").chosen();});
+        </script>
+ 
+<script src="../../../assets/system_design/scripts/bootstrap.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/bootstrap.min.js"></script> 
+<script src="../../../assets/system_design/scripts/BeatPicker.min.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/BeatPicker.min.js"></script>
+
+    <script src="../../../assets/system_design/scripts/timepicki.js" tppabs="http://envato.digitalvidhya.com/codecanyon/dvbs/assets/system_design/scripts/timepicki.js"></script>
+    <script>
+    	$('#timepicker1').timepicki({increase_direction:'up'});
+		$('#timepicker2').timepicki({increase_direction:'up'});
+ 	 
+    </script>
+
+<!--Date Table--> 
+	<!--Date Table--> 
+	
+
+
+ <script type="text/javascript" language="javascript" class="init">
+
+ 
+ 
+ function setActiveOnlinePackage(id) {
+	numid = id.split('_')[1];
+	$('#cars_data_list div').removeClass('active');
+	$('li').removeClass('active');
+	$('#'+id).parent().closest('ul').addClass('active');
+	$('#'+id).parent().parent().addClass('car-sel-bx active');
+	
+}
+
+	</script>
+	<!--Slider--> 
+ 
+		<!--Slider--> 
+ 
+</body>
+</html>
